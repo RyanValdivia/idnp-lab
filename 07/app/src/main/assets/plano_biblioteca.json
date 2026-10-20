@@ -1,0 +1,58 @@
+{
+  "edificio": "Biblioteca Central",
+  "piso": "Planta baja",
+  "ancho": 1000,
+  "alto": 1000,
+  "ambientes": [
+    { "id": "lectura",  "nombre": "Sala de Lectura",   "tipo": "salon",    "x": 40,  "y": 40,  "w": 400, "h": 300 },
+    { "id": "computo",  "nombre": "Sala de Cómputo",   "tipo": "salon",    "x": 440, "y": 40,  "w": 260, "h": 300 },
+    { "id": "investig", "nombre": "Investigación",     "tipo": "salon",    "x": 700, "y": 40,  "w": 260, "h": 300 },
+    { "id": "hemero",   "nombre": "Hemeroteca",        "tipo": "salon",    "x": 40,  "y": 340, "w": 200, "h": 320 },
+    { "id": "patio",    "nombre": "Patio Central",     "tipo": "patio",    "x": 240, "y": 340, "w": 520, "h": 320 },
+    { "id": "grupos",   "nombre": "Sala de Grupos",    "tipo": "salon",    "x": 760, "y": 340, "w": 200, "h": 320 },
+    { "id": "deposito", "nombre": "Depósito",          "tipo": "servicio", "x": 40,  "y": 660, "w": 260, "h": 300 },
+    { "id": "hall",     "nombre": "Hall y Préstamos",  "tipo": "servicio", "x": 300, "y": 660, "w": 400, "h": 300 },
+    { "id": "descanso", "nombre": "Patio de Descanso", "tipo": "patio",    "x": 700, "y": 660, "w": 260, "h": 300 }
+  ],
+  "lineas": [
+    { "tipo": "pared",      "x1": 40,  "y1": 40,  "x2": 960, "y2": 40  },
+    { "tipo": "pared",      "x1": 960, "y1": 40,  "x2": 960, "y2": 960 },
+    { "tipo": "pared",      "x1": 960, "y1": 960, "x2": 40,  "y2": 960 },
+    { "tipo": "pared",      "x1": 40,  "y1": 960, "x2": 40,  "y2": 40  },
+    { "tipo": "pared",      "x1": 440, "y1": 40,  "x2": 440, "y2": 340 },
+    { "tipo": "pared",      "x1": 700, "y1": 40,  "x2": 700, "y2": 340 },
+    { "tipo": "pared",      "x1": 40,  "y1": 340, "x2": 960, "y2": 340 },
+    { "tipo": "pared",      "x1": 40,  "y1": 660, "x2": 960, "y2": 660 },
+    { "tipo": "pared",      "x1": 240, "y1": 340, "x2": 240, "y2": 660 },
+    { "tipo": "pared",      "x1": 760, "y1": 340, "x2": 760, "y2": 660 },
+    { "tipo": "pared",      "x1": 300, "y1": 660, "x2": 300, "y2": 960 },
+    { "tipo": "pared",      "x1": 700, "y1": 660, "x2": 700, "y2": 960 },
+
+    { "tipo": "estanteria", "x1": 80,  "y1": 230, "x2": 400, "y2": 230 },
+    { "tipo": "estanteria", "x1": 80,  "y1": 280, "x2": 400, "y2": 280 },
+    { "tipo": "estanteria", "x1": 90,  "y1": 740, "x2": 250, "y2": 740 },
+    { "tipo": "estanteria", "x1": 90,  "y1": 800, "x2": 250, "y2": 800 },
+    { "tipo": "estanteria", "x1": 90,  "y1": 860, "x2": 250, "y2": 860 },
+
+    { "tipo": "puerta",     "x1": 300, "y1": 340, "x2": 380, "y2": 340 },
+    { "tipo": "puerta",     "x1": 520, "y1": 340, "x2": 600, "y2": 340 },
+    { "tipo": "puerta",     "x1": 780, "y1": 340, "x2": 860, "y2": 340 },
+    { "tipo": "puerta",     "x1": 240, "y1": 460, "x2": 240, "y2": 540 },
+    { "tipo": "puerta",     "x1": 760, "y1": 460, "x2": 760, "y2": 540 },
+    { "tipo": "puerta",     "x1": 460, "y1": 660, "x2": 540, "y2": 660 },
+    { "tipo": "puerta",     "x1": 300, "y1": 780, "x2": 300, "y2": 840 },
+    { "tipo": "puerta",     "x1": 700, "y1": 780, "x2": 700, "y2": 840 },
+    { "tipo": "puerta",     "x1": 460, "y1": 960, "x2": 540, "y2": 960 }
+  ],
+  "marcadores": [
+    { "ambienteId": "lectura",  "x": 240, "y": 150, "radio": 26, "titulo": "Sala de Lectura",   "descripcion": "Mesas de estudio individual y estanterías de consulta. Aforo: 80 personas." },
+    { "ambienteId": "computo",  "x": 570, "y": 150, "radio": 26, "titulo": "Sala de Cómputo",   "descripcion": "30 equipos con acceso a catálogo en línea y bases de datos académicas." },
+    { "ambienteId": "investig", "x": 830, "y": 150, "radio": 26, "titulo": "Investigación",     "descripcion": "Cubículos silenciosos para tesistas y docentes investigadores." },
+    { "ambienteId": "hemero",   "x": 140, "y": 500, "radio": 26, "titulo": "Hemeroteca",        "descripcion": "Revistas, periódicos y publicaciones periódicas en formato impreso." },
+    { "ambienteId": "patio",    "x": 500, "y": 500, "radio": 26, "titulo": "Patio Central",     "descripcion": "Jardín interior al aire libre; zona de descanso y lectura informal." },
+    { "ambienteId": "grupos",   "x": 860, "y": 500, "radio": 26, "titulo": "Sala de Grupos",    "descripcion": "Salas reservables para trabajos grupales de hasta 8 estudiantes." },
+    { "ambienteId": "deposito", "x": 170, "y": 912, "radio": 26, "titulo": "Depósito",          "descripcion": "Acervo bibliográfico de acceso restringido; solicitar con el personal." },
+    { "ambienteId": "hall",     "x": 500, "y": 800, "radio": 26, "titulo": "Hall y Préstamos",  "descripcion": "Ingreso principal, mostrador de préstamos y devolución de libros." },
+    { "ambienteId": "descanso", "x": 830, "y": 800, "radio": 26, "titulo": "Patio de Descanso", "descripcion": "Patio techado con bancas, cercano al ingreso de la biblioteca." }
+  ]
+}
